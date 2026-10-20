@@ -1,0 +1,58 @@
+
+/* Cores principais */
+:root {
+  --primary: #C92071; /* Primário */
+  --secondary: #B5B6F2; /* Secundário */
+  --tertiary: #991956; /* Terciário */
+  --error: #EE4266; /* Erro */
+  --success: #52CA76; /* Sucesso */
+  --warning: #F6AA1C; /* Aviso */
+  --dark-gray: #1F1F1F; /* Cinza escuro */
+  --dark-gray-2: #474747; /* Cinza-escuro-2 */
+  --dark-gray-3: #666666; /* Cinza-escuro-3 */
+  --light-gray: #8F8F8F; /* Cinza claro */
+  --light-gray-2: #CCCCCC; /* Cinza-claro-2 */
+  --light-gray-3: #F5F5F5; /* Cinza-claro-3 */
+  --white: #FFFFFF; /* Branco */
+}
+
+/* Exemplo de uso das variáveis */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--light-gray-3);
+  color: var(--dark-gray);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--tertiary);
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--tertiary);
+}
+
+button:focus {
+  outline: none;
+}
+
+.error-text {
+  color: var(--error);
+}
+
+.success-text {
+  color: var(--success);
+}

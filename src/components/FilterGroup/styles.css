@@ -1,0 +1,27 @@
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group-title {
+  font-size: 14px;
+  color: var(--dark-gray-2);
+  margin-bottom: 10px;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.filter-input {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  background-color: var(--primary);
+}
